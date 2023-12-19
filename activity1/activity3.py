@@ -12,8 +12,6 @@ import matplotlib.pyplot as plt
 df = pd.read_csv('csvExamples/courses.csv')
 # Documentation: https://pandas.pydata.org/docs/reference/api/pandas.read_csv.html
 
-
-
 # Calculate the number of programming languages
 num_languages = len(df['Programming Language'])  
 # Documentation: https://docs.python.org/3/library/functions.html#len
@@ -74,7 +72,7 @@ ax2 = ax1.twinx()
 # Adjust alpha to control transparency
 ax2.bar(bar_positions,
         df['Number of Downloads'],
-        width=bar_width,
+        width=bar_width*0.9,
         color='green', label='Number of Downloads', alpha=0.7) 
 # Documentation: https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.bar.html 
 # Set the y-axis label and color

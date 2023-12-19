@@ -12,7 +12,6 @@ import matplotlib.pyplot as plt
 df = pd.read_csv('csvExamples/courses.csv')
 # Documentation: https://pandas.pydata.org/docs/reference/api/pandas.read_csv.html
 
-# Create subplots with 1 row and 2 columns, adjusting the figure size
 plt.figure(figsize=(12, 4))  
 # Documentation: https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.figure.html
 
