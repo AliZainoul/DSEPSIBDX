@@ -64,7 +64,7 @@ def write_to_csv(file_name, data):
 
 if __name__ == "__main__":
     # Adjust the number of rows as needed
-    num_rows = 500
+    num_rows = 50
 
     # Generate fake student data
     fake_student_data = generate_fake_student_data(num_rows)

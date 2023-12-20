@@ -26,7 +26,7 @@ fig_height = max(minH, num_students)
 
 # Create subplots with 1 row and 1 column
 # Create a figure and a set of subplots 
-fig, ax1 = plt.subplots(figsize=(fig_width, fig_height * 0.75)) 
+fig, ax1 = plt.subplots(figsize=(fig_width * 0.25, fig_height * 0.25)) 
 # Documentation: https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.subplots.html
 
 # Set the main title for the entire plot
