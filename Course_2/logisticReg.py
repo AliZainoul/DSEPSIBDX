@@ -89,6 +89,8 @@ classification_rep = classification_report(y_test, logistic_predictions)
 print("Rapport de classification :\n", classification_rep)
 # Documentation: https://scikit-learn.org/stable/modules/generated/sklearn.metrics.classification_report.html
 
+
+# LOGIQUE COURBE ROC
 # Courbe ROC pour la classification multiclasse (modification ajoutée)
 from sklearn.metrics import roc_curve, auc
 # Importation des fonctions roc_curve et auc pour générer la courbe ROC et calculer l'aire sous la courbe (AUC)
