@@ -51,7 +51,7 @@ model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accur
 model.fit(x_train, y_train, epochs=10, validation_data=(x_val, y_val), verbose=2)
 
 # Documentation :
-# - Model training in TensorFlow : https://www.tensorflow.org/guide/keras/train_and_evaluate
+# - Model training in TensorFlow : https://www.tensorflow.org/api_docs/python/tf/keras/Model#fit
 #   - x (array-like) : Données d'entraînement.
 #   - y (array-like) : Étiquettes d'entraînement.
 #   - epochs (int) : Nombre d'époques d'entraînement.

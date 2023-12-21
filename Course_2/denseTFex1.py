@@ -96,7 +96,7 @@ model.fit(
 )
 
 # Documentation :
-# - Model training in TensorFlow : https://www.tensorflow.org/guide/keras/train_and_evaluate
+# - Model training in TensorFlow : https://www.tensorflow.org/api_docs/python/tf/keras/Model#fit
 #   - x (array-like) : Données d'entraînement.
 #   - y (array-like) : Étiquettes d'entraînement.
 #   - epochs (int) : Nombre d'époques d'entraînement.
