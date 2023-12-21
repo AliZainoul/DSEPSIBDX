@@ -36,7 +36,7 @@ from sklearn.preprocessing import StandardScaler
 iris = load_iris()  
 # Chargement des données du jeu de données Iris
 # Membre: iris.data, iris.target
-# Documentation: https://scikit-learn.org/stable/modules/generated/sklearn.utils.Bunch.html
+# Documentation: https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_iris.html
 
 X, y = iris.data, iris.target  
 # Séparation des features et de la variable cible
